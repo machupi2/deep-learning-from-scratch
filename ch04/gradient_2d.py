@@ -62,6 +62,7 @@ if __name__ == '__main__':
     plt.figure()
     plt.quiver(X, Y, -grad[0], -grad[1],  angles="xy",color="#666666")
     plt.xlim([-2, 2])
+
     plt.ylim([-2, 2])
     plt.xlabel('x0')
     plt.ylabel('x1')
